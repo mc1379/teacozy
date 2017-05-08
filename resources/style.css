@@ -1,0 +1,147 @@
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+
+}
+
+div.header {
+  display: flex;
+  width: 99%;
+  height: 69px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 25;
+top: 0px;
+  background-color: black;
+}
+div.logo img{
+  display: inline-block;
+  height: 50px;
+  width: auto;
+}
+div.navigation {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+}
+.navigation span a {
+  display: block;
+  font-weight: bold;
+  color: seashell;
+  padding: 15px;
+}
+div.content {
+  display: flex;
+flex-direction: column;
+  position: relative;
+  z-index: 5;
+  top: 67px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+div.banner {
+  display: flex;
+  background-image: url("./img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+div.headline {
+  display: block;
+  align-content: center;
+  width: 100%;
+  background-color: black;
+}
+div.middle {
+  display: block;
+justify-content: center;
+align-content: center;
+width: 1000px;
+margin: 25px 0px;
+}
+
+#teasone {
+display: flex;
+justify-content: space-between;
+  width: 1000px;
+  margin: 5px 0px;
+}
+#teastwo {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+  width: 1000px;
+  margin: 5px 0px;
+}
+#teastwo .block {
+  margin: 0px 20px;
+}
+.image img {
+  display: flex;
+  width: 300px;
+}
+.block h4 {
+  padding: 10px;
+  margin: 0px;
+}
+
+div.bottombanner {
+  display: block;
+  background-image: url("./img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+div.headlinetwo h2{
+  display: flex;
+  width: 1200px;
+  height: 100px;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px;
+  margin: 0px;
+
+}
+div.addresses {
+  display: inline-flex;
+  flex-direction: row;
+
+
+}
+div.location {
+  width: 300px;
+  background-color: black;
+  margin: 0px 20px;
+
+}
+.location p {
+  opacity: 1;
+}
+div.homeaddress {
+
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+div.copyright {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+}
+.copyright h5 {
+  padding: 20px;
+}
